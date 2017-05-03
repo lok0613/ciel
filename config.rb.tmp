@@ -1,0 +1,11 @@
+{
+	:repository_path => 'local path',
+	:remote => 'origin',
+	:branch => 'master',
+	:message => Time.now.strftime("%d-%m-%Y %H:%M"),
+	:command => 'mysqldump -u root -ppassword table > table.sql',
+	:git => {
+		:username => 'username',
+		:email => 'email'
+	}
+}
