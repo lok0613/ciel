@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    chronic (0.10.2)
     git (1.3.0)
+    whenever (0.9.7)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   git
+  whenever
 
 BUNDLED WITH
    1.14.6

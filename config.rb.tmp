@@ -4,6 +4,7 @@
 	:branch => 'master',
 	:message => Time.now.strftime("%d-%m-%Y %H:%M"),
 	:command => 'mysqldump -u root -ppassword table > table.sql',
+	:scheduleTime => '2:00 am',
 	:git => {
 		:username => 'username',
 		:email => 'email'
